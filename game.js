@@ -150,5 +150,5 @@ let scenario =
 
 //this is the code that starts the game
 advanceTo(scenario.one);
-/* Ishani Sadagopan Jeyaram Malismitha */
+
 /* Ishani Sadagopan Jeyaram Malismitha */
