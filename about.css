@@ -14,5 +14,9 @@
 body{
     background-color: #8DCCDB;
 }
-
+.logo img{
+    width:20%;
+    height:20%;
+    margin-top: 230px;
+}
 /* Ishani Sadagopan Jeyaram Malismitha */
