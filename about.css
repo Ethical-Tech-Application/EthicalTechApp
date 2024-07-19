@@ -1,23 +1,18 @@
-.container{
-    border: 2px solid black;
-    border-radius: 5px;
-
-    padding: 1vh;
-    outline: black solid 3px;
-    /*outline-offset: 5px;*/
-    background-color: #8DCCDB;
-    align-items: center;
+.allText
+{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+}
+
+.allText .textbox
+{
     color: black;
-    text-align: center;
-    font-size: 1.6em;
+    font-size: x-large;
+    width: 70%;
+    height: 100%;
+    padding: 5vh;
+    border: 5px solid black;
+    border-radius: 1vh;
+    margin-top: 100px;
 }
-.logo img{
-    width:20%;
-    height:20%;
-    margin-top: 230px;
-}
-/* Ishani Sadagopan Jeyaram Malismitha */

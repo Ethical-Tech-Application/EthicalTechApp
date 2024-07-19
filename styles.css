@@ -2,6 +2,7 @@
 {
   box-sizing: border-box;
 }
+
 body
 {
   font-family: "Poppins", sans-serif;
@@ -36,11 +37,24 @@ body
   border-radius: 5px;
   transition: color .5s, background .5s;
 }
-  
+
 /* Change color on hover */
 .navbar a:hover
 {
   background-color: white;
   color: black;
   transition: color .5s, background .5s;
+}
+
+.logo
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+html .logo img
+{
+  width: 5%;
+  height: auto;
 }

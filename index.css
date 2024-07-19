@@ -6,6 +6,8 @@
     font-size: 1.6em;
     margin-left: 1vw;
     margin-right: 1vw;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -16,7 +18,7 @@
 
 #images
 {
-    height: 60vh;
+    height: 100px;
     background-size: cover;
     background-position: center;
     margin-bottom: 1em;
