@@ -6,9 +6,6 @@
     font-size: 1.6em;
     margin-left: 1vw;
     margin-right: 1vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 #text
@@ -18,7 +15,7 @@
 
 #images
 {
-    height: 100px;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 1em;
@@ -30,7 +27,7 @@ input
     height: 30px;
     text-align: center;
     font-size: 1em;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 #buttonBox
