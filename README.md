@@ -1,1 +1,0 @@
-# Ethical_Tech_App
