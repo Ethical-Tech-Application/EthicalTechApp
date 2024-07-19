@@ -1,4 +1,15 @@
-.img
+body
 {
-    
+    background-image: url('homeImgs/home.png');
+    background-size: 187vh;
 }
+
+.compName
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+/* Ishani Sadagopan Jeyaram Malismitha */
