@@ -143,7 +143,7 @@ let scenario =
 
 
 
-  fifteen:
+  reflection:
   {
     image: "#",
     text: "Reflections and Learnings:<br><br> Ethical Use of Data: <br> Reflection: Consider the ethical implications of collecting extensive personal data from users without explicit consent or understanding. <br> Learning: Understand the importance of transparency and informed consent in data collection practices. Discuss how companies should balance their business interests with user privacy rights. <br><br> Impact on Society: <br> Reflection: Consider the broader societal impacts of extensive data collection and targeted advertising, including implications for democracy, polarization, and social cohesion.  <br><br> Learning: Discuss the role of social media platforms in shaping public discourse and the ethical considerations of influencing user behavior through targeted content and ads.",
