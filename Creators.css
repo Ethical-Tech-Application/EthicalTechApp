@@ -1,22 +1,18 @@
-.textbox
+.allText
 {
-    text-decoration: solid;
-    text-decoration-color: midnightblue;
-    color: midnightblue;
-    font-size:x-large;
-    width: 70%;
-    height: 100%;
-    padding: 20px;
-    border: 5px solid black;
-    margin-left: 250px;
-    margin-top: 190px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.logo img
+.allText .textbox
 {
-    width:20%;
-    height:20%;
-    margin-top: 190px;
+    color: black;
+    font-size: x-large;
+    width: 70%;
+    height: 100%;
+    padding: 5vh;
+    border: 5px solid black;
+    border-radius: 1vh;
+    margin-top: 100px;
 }
-/* Martha Pruit*/

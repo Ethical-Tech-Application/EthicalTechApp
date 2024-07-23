@@ -6,7 +6,6 @@
     font-size: 1.6em;
     margin-left: 1vw;
     margin-right: 1vw;
-    justify-content: center;
 }
 
 #text
@@ -28,7 +27,7 @@ input
     height: 30px;
     text-align: center;
     font-size: 1em;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 #buttonBox
