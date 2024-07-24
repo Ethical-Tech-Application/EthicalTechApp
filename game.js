@@ -115,7 +115,7 @@ let scenario =
     {
       image: "#",
       text: "User feedback suggests that the privacy measures are too cumbersome, impacting user experience.<br><br> Path 1: Simplify the measures while maintaining core privacy features.<br><br> Path 2: Stick with the current plan, prioritizing privacy over convenience.",
-      buttons: [["Path 1", "advanceTo(scenario.sen2)"],["Path 2", "advanceTo(scenario.A112)"]]
+      buttons: [["Path 1", "advanceTo(scenario.sen2)"],["Path 2", "advanceTo(scenario.A122)"]]
     },
       A122: // A.2 Correct
       {
