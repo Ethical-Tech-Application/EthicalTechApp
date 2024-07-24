@@ -14,6 +14,22 @@ let addPt = function(pt = 0)
   totPts += pt;
 };
 
+let getScore = function()
+{
+  if(totPts >= 38)
+  {
+    return "with a score of " + totPts + " out of 42, you did amazingly great! 🤯";
+  }
+  else if(38 > totPts > 28)
+  {
+    return "with a score of " + totPts + " out of 42, you did alright! 👍";
+  }
+  else if(28 >= totPts)
+  {
+    return "with a score of " + totPts + " out of 42, you did pretty bad! 💀";
+  }
+}
+
 //this is how after we type in the character name and hit enter
 //we will add the name to the variable, remove the input box and start our first scenario
 input.onkeypress = function(event)
@@ -85,7 +101,7 @@ let scenario =
     {
       ptsAdded: 1,
       image: "#",
-      text: "As you implement these measures, you encounter a bug that delays the project further.<br><br> Path 1: Inform your team and work overtime to fix the bug.<br><br> Path 2:  Ignore the bug for now, planning to fix it post-launch.",
+      text: "Consequence: Slower development process, but users trust and appreciate the app, leading to long-term success.<br>As you implement these measures, you encounter a bug that delays the project further.<br><br> Path 1: Inform your team and work overtime to fix the bug.<br><br> Path 2:  Ignore the bug for now, planning to fix it post-launch.",
       buttons: [["Path 1", "advanceTo(scenario.A111)"],["Path 2", "advanceTo(scenario.A12)"]]
     },
       A111: // A.1 Correct
@@ -111,7 +127,7 @@ let scenario =
     B11: // B
     {
       image: "#",
-      text: "As you implement these measures, you encounter a bug that delays the project further.<br><br> Path 1: Inform your team and work overtime to fix the bug.<br><br> Path 2:  Ignore the bug for now, planning to fix it post-launch.",
+      text: "Faster development and short-term success, but potential backlash and legal issues as users discover the lack of transparency.<br> A whistleblower within the company threatens to go public with the unethical data practices.<br><br> Path 1: Attempt to silence the whistleblower through a legal agreement.<br><br> Path 2: Address the issue openly and commit to changing your data practices.",
       buttons: [["Path 1", "advanceTo(scenario.B12)"],["Path 2", "advanceTo(scenario.B112)"]]
     },
       B112: // B.1 Correct
@@ -124,7 +140,7 @@ let scenario =
     B12:
     {
       image: "#",
-      text: "User feedback suggests that the privacy measures are too cumbersome, impacting user experience.<br><br> Path 1: Simplify the measures while maintaining core privacy features.<br><br> Path 2: Stick with the current plan, prioritizing privacy over convenience.",
+      text: "An influential tech journalist discovers your data practices and contacts you for a statement. <br><br> Path 1: Provide a transparent response and outline your plans for change.<br><br> Path 2: Deflect the questions and try to control the narrative.",
       buttons: [["Path 1", "advanceTo(scenario.121)"],["Path 2", "advanceTo(scenario.sen2)"]]
     },
       B121: // B.2 Correct
@@ -136,18 +152,11 @@ let scenario =
       },
 
 
-
-
-
-
-
-
-
   reflection:
   {
     image: "#",
-    text: "Reflections and Learnings:<br><br> Ethical Use of Data: <br> Reflection: Consider the ethical implications of collecting extensive personal data from users without explicit consent or understanding. <br> Learning: Understand the importance of transparency and informed consent in data collection practices. Discuss how companies should balance their business interests with user privacy rights. <br><br> Impact on Society: <br> Reflection: Consider the broader societal impacts of extensive data collection and targeted advertising, including implications for democracy, polarization, and social cohesion.  <br><br> Learning: Discuss the role of social media platforms in shaping public discourse and the ethical considerations of influencing user behavior through targeted content and ads.",
-    buttons: [["continue", "advanceTo(scenario.zero)"]]
+    text: "Congratulations! You've made it to the end. Now, your overall rating based on your choices will be displayed<br><br> " + getScore(),
+    buttons: [["The End", ""]]
   }
 };
 
